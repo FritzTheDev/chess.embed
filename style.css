@@ -1,18 +1,14 @@
 body {
   margin: 0;
   padding: 0;
-}
-
-.grid {
-  display: grid;
   overflow: hidden;
-  height: 100vh;
-  width: 100vw;
-  grid-template-columns: repeat(10, 1fr);
 }
 
-@media only screen and (max-width: 600px) {
-  .board {
-    
-  }
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+}
+
+.board {
+  
 }
