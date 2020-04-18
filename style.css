@@ -3,7 +3,6 @@ html {
 }
 
 body {
-  position: fixed;
   width: 100%;
   height: 100%;
   margin: 0;
@@ -27,6 +26,6 @@ body {
   height: calc(100vh / 8) !important;
 }
 .square-55d63 {
-  width: calc(100vw / 8) !important;
+  width: calc(100vh / 8) !important;
   height: calc(100vh / 8) !important;
 }
