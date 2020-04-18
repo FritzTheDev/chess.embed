@@ -2,7 +2,7 @@
   const onBoardStateChange = (oldState, newState) => {
     console.log("old: " + Chessboard.objToFen(oldState));
     console.log("new: " + Chessboard.objToFen(oldState));
-    console.log("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+    console.log("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
   }
   const board = Chessboard("board", {
     draggable: true,
